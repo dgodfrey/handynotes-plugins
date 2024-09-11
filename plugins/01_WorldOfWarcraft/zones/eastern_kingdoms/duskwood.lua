@@ -121,6 +121,60 @@ map.nodes[46304000] = ns.node.AnniversaryRare({
     }
 }) -- Emeriss
 
+map.nodes[58402980] = Rare({
+    id = 507,
+    pois = {
+        POI({
+            62003720, 60604050, 61804100, 63004100, 61204520,64404780,
+            64005120
+        })
+    },
+    rewards = {
+        Transmog({item = 4474, type = L['leather']}), -- Ravenwood Bow
+        Transmog({item = 6204, type = L['bow']}), -- Tribal Worg helm
+    }
+}) -- Fenros
+
+map.nodes[24203450] = Rare({
+    id = 503,
+    pois = {
+        POI({
+            25603020, 20302680
+        })
+    },
+    rewards = {
+        Transmog({item = 4462, type = L['cloak']}), -- Cloak of Rot
+    }
+}) -- Lord Malathrom
+
+map.nodes[65601960] = Rare({
+    id = 521,
+    pois = {
+        POI({
+            60802060, 70202440
+        })
+    },
+    rewards = {
+        Transmog({item = 3018, type = L['cloak']}), -- Hide of Lupos
+        Transmog({item = 3227, type = L['staff']}), -- Nightbane Staff
+    }
+}) -- Lupos
+
+map.nodes[07803420] = Rare({
+    id = 45811,
+    rewards = {
+        Transmog({item = 920, type = L['mace']}), -- Wicked Spiked Mace
+    }
+}) -- Marina DeSirrus
+
+map.nodes[86404730] = Rare({
+    id = 574,
+    rewards = {
+        Transmog({item = 4448, type = L['mail']}), -- Husk of Naraxis
+        Transmog({item = 4449, type = L['dagger']}), -- Naraxis' Fang
+    }
+}) -- Naraxis
+
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
